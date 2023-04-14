@@ -38,8 +38,8 @@ export default class Earthling {
   }
 
   numMercuryYearsUntilAge(futureAge) {
-    let mercYearsUntil = (futureAge - this.currentEarthAge) / 0.24; 
-    this.mercuryYearsUntil = parseInt(mercYearsUntil); 
+    let mercYearsUntil = (futureAge - this.currentEarthAge) / 0.24;
+    this.mercuryYearsUntil = parseInt(mercYearsUntil);
   }
 
   venus() {
