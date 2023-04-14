@@ -44,7 +44,7 @@ export default class Earthling {
 
   venus() {
     let venusAgeConversion = this.currentEarthAge / 0.62;
-    this.venusAge = parseInt(venusAgeConversion); 
+    this.venusAge = Number(venusAgeConversion.toFixed(2)); 
   }
 
   numVenusYearsSinceAge(previousAge) {
