@@ -16,5 +16,10 @@ describe('Earthling', () => {
     earthling.numEarthYearsSinceAge(20);
     expect(earthling.yearsSince).toEqual(10);
   });
+
+  test('should create a method of returning correct number of earth years until Earthling objects future birthday', () => {
+    earthling.numEarthYearsUntilAge(45);
+    expect(earthling.yearsUntil).toEqual(15);
+  });
   
-});
+})
