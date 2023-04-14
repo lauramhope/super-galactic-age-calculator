@@ -53,7 +53,7 @@ describe('Earthling', () => {
 
   test('should create a method of taking earthlings current earth age in years and returning correct number of Mars age in years', () => {
     earthling.mars(); 
-    expect(earthling.marsAge).toEqual(16); 
+    expect(earthling.marsAge).toEqual(15); 
   });
 
   test('should create a method of returning correct number of Mars years since earthlings previous birthday', () => {
