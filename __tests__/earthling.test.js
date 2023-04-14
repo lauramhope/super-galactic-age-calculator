@@ -38,12 +38,12 @@ describe('Earthling', () => {
 
   test('should create a method of taking earthlings current earth age in years and returning correct number of venus age in years, rounded to 2 decimal places', () => {
     earthling.venus(); 
-    expect(earthling.venusAge).toEqual(48); 
+    expect(earthling.venusAge).toEqual(48.39); 
   });
 
-  test('should create a method of returning correct number of Venus years since earthlings previous birthday', () => {
+  test('should create a method of returning correct number of Venus years since earthlings previous birthday, rounded to 2 decimal places', () => {
     earthling.numVenusYearsSinceAge(20);
-    expect(earthling.venusYearsSince).toEqual(16);
+    expect(earthling.venusYearsSince).toEqual(16.13);
   });
 
   test('should create a method of returning correct number of Venus years until earthlings future birthday', () => {
