@@ -1,41 +1,36 @@
-# _{Application Name}_
+# _Super-Galactic-Age-Calculator_
 
-#### _{Brief description of application}_
+#### _This application converts your age from Earth years to Mercury, Venus, Mars, and Jupiter years_
 
-#### By **Laura Hope**_
+#### By **Laura Hope**
 
 ## Technologies Used
 
 * _HTML_
 * _CSS_
 * _JavaScript_
-* _Webpack_
-* _Node.js_
+* _Webpack v 4.46.0_
+* _Node.js v 16.13.1_
+* _esLint_
+* _Babel_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This application demonstrates Red-Green-Refactor workflow for testing via Jest on the local terminal. Intermediate JavaScript skills showcasing ES6 class keywords for constructors. Application displays 100% line coverage via Jest._
 
 ## Setup/Installation Requirements
 
-* _Clone “ “ from the repository to your desktop_
-ADD NEW CLONE INSTRUCTIONS
-* _Open “ “ directory_
-* _Open “ “ file in your browser_
-
-************ INSTALL INFO BELOW ***********
-//Installing all packages with $ npm install.
-Building the project using webpack with $ npm run build
-Starting a development server with $ npm run start
-Linting JS files in the src folder with $ npm run lint
-Running tests with Jest using $ npm run test//
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Clone “super-galactic-age-calculator“ from the repository to your desktop_
+* _Navigate to “super-galactic-age-calculator“ directory via your local terminal command line_
+* _Open the directory in VS code by typing 'code .' in the command line_
+* _Run 'npm install' in the command line to install all packages_
+* _Run 'npm run build' to build the project via webpack_
+* _Run 'npm run start' to start a development server_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs as of 4/14/23_
+* _Currently no UI as of 4/14/23_
 
 ## License
 
