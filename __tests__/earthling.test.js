@@ -43,7 +43,7 @@ describe('Earthling', () => {
 
   test('should create a method of returning correct number of Venus years since earthlings previous birthday', () => {
     earthling.numVenusYearsSinceAge(20);
-    expect(earthling.venusYearsSince).toEqual(32);
+    expect(earthling.venusYearsSince).toEqual(16);
   });
 
 })

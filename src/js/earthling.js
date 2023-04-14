@@ -7,6 +7,7 @@ export default class Earthling {
     this.mercuryYearsSince = 0; 
     this.mercuryYearsUntil = 0; 
     this.venusAge = 0; 
+    this.venusYearsSince = 0; 
   }
 
   numEarthYearsSinceAge(previousAge) {
@@ -37,6 +38,11 @@ export default class Earthling {
   venus() {
     let venusAgeConversion = this.currentEarthAge / 0.62;
     this.venusAge = parseInt(venusAgeConversion.toFixed()); 
+  }
+
+  numVenusYearsSinceAge(previousAge) {
+    let venusYearsPassed = (this.currentEarthAge - previousAge) / 0.62;
+    this.venusYearsSince = parseInt(venusYearsPassed.toFixed()); 
   }
 
 }
