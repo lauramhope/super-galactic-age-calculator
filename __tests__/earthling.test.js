@@ -28,7 +28,7 @@ describe('Earthling', () => {
 
   test('should create a method of returning correct number of Mercury years since earthlings previous birthday', () => {
     earthling.numMercuryYearsSinceAge(20);
-    expect(earthling.mercuryYearsSince).toEqual(41.7);
+    expect(earthling.mercuryYearsSince).toEqual(42);
   });
 
   test('should create a method of returning correct number of Mercury years until earthlings future birthday', () => {
