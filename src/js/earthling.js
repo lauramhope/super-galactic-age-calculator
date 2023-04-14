@@ -29,7 +29,7 @@ export default class Earthling {
 
   mercury() {
     let mercuryAgeConversion = this.currentEarthAge / 0.24;
-    this.mercuryAge = parseInt(mercuryAgeConversion.toFixed());
+    this.mercuryAge = parseInt(mercuryAgeConversion.toFixed(1));
   }
 
   numMercuryYearsSinceAge(previousAge) {
