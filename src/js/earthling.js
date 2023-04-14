@@ -64,7 +64,7 @@ export default class Earthling {
 
   numMarsYearsSinceAge(previousAge) {
     let marsYearsPassed = (this.currentEarthAge - previousAge) / 1.88;
-    this.marsYearsSince = parseInt(marsYearsPassed); 
+    this.marsYearsSince = Number(marsYearsPassed.toFixed(2)); 
   }
 
   numMarsYearsUntilAge(futureAge) {
