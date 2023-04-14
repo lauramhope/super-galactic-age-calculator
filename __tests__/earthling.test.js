@@ -51,9 +51,9 @@ describe('Earthling', () => {
     expect(earthling.venusYearsUntil).toEqual(24.19); 
   });
 
-  test('should create a method of taking earthlings current earth age in years and returning correct number of Mars age in years', () => {
+  test('should create a method of taking earthlings current earth age in years and returning correct number of Mars age in years, rounded to 2 decimal places', () => {
     earthling.mars(); 
-    expect(earthling.marsAge).toEqual(15); 
+    expect(earthling.marsAge).toEqual(15.96); 
   });
 
   test('should create a method of returning correct number of Mars years since earthlings previous birthday', () => {
