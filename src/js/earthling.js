@@ -74,7 +74,7 @@ export default class Earthling {
 
   jupiter() {
     let jupiterAgeConversion = this.currentEarthAge / 11.86;
-    this.jupiterAge = parseInt(jupiterAgeConversion); 
+    this.jupiterAge = Number(jupiterAgeConversion.toFixed(2)); 
   }
 
   numJupiterYearsSinceAge(previousAge) {
