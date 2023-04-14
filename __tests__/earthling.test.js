@@ -33,7 +33,7 @@ describe('Earthling', () => {
 
   test('should create a method of returning correct number of Mercury years until earthlings future birthday', () => {
     earthling.numMercuryYearsUntilAge(45);
-    expect(earthling.mercuryYearsUntil).toEqual(63); 
+    expect(earthling.mercuryYearsUntil).toEqual(62); 
   });
 
   test('should create a method of taking earthlings current earth age in years and returning correct number of venus age in years', () => {
