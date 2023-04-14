@@ -76,4 +76,9 @@ describe('Earthling', () => {
     expect(earthling.jupiterYearsSince).toEqual(1);
   });
 
+  test('should create a method of returning correct number of Jupiter years until earthlings future birthday', () => {
+    earthling.numJupiterYearsUntilAge(45);
+    expect(earthling.jupiterYearsUntil).toEqual(1);
+  });
+
 })
