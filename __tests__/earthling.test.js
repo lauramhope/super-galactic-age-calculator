@@ -7,7 +7,6 @@ describe('Earthling', () => {
     earthling = new Earthling (30);
   });
 
-
   test('should create an object "Earthling" with current earth age', () => {
     expect(earthling.currentEarthAge).toEqual(30);
   });
