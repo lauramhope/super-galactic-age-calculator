@@ -49,7 +49,7 @@ export default class Earthling {
 
   numVenusYearsSinceAge(previousAge) {
     let venusYearsPassed = (this.currentEarthAge - previousAge) / 0.62;
-    this.venusYearsSince = parseInt(venusYearsPassed.toFixed()); 
+    this.venusYearsSince = parseInt(venusYearsPassed); 
   }
 
   numVenusYearsUntilAge(futureAge) {
