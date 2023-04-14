@@ -46,4 +46,9 @@ describe('Earthling', () => {
     expect(earthling.venusYearsSince).toEqual(16);
   });
 
+  test('should create a method of returning correct number of Venus years until earthlings future birthday', () => {
+    earthling.numVenusYearsUntilAge(45);
+    expect(earthling.venusYearsUntil).toEqual(24); 
+  });
+
 })
