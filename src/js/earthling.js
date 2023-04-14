@@ -54,7 +54,7 @@ export default class Earthling {
 
   numVenusYearsUntilAge(futureAge) {
     let venYearsUntil = (futureAge - this.currentEarthAge) / 0.62; 
-    this.venusYearsUntil = parseInt(venYearsUntil.toFixed()); 
+    this.venusYearsUntil = parseInt(venYearsUntil); 
   }
 
   mars() {
