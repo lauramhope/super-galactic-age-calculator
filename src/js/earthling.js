@@ -59,7 +59,7 @@ export default class Earthling {
 
   mars() {
     let marsAgeConversion = this.currentEarthAge / 1.88;
-    this.marsAge = parseInt(marsAgeConversion.toFixed()); 
+    this.marsAge = parseInt(marsAgeConversion); 
   }
 
   numMarsYearsSinceAge(previousAge) {
