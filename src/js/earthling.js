@@ -13,6 +13,7 @@ export default class Earthling {
     this.marsYearsSince = 0;
     this.marsYearsUntil = 0; 
     this.jupiterAge = 0; 
+    this.jupiterYearsSince = 0; 
   }
 
   numEarthYearsSinceAge(previousAge) {
@@ -73,6 +74,11 @@ export default class Earthling {
   jupiter() {
     let jupiterAgeConversion = this.currentEarthAge / 11.86;
     this.jupiterAge = parseInt(jupiterAgeConversion.toFixed()); 
+  }
+
+  numJupiterYearsSinceAge(previousAge) {
+    let jupiterYearsPassed = (this.currentEarthAge - previousAge) / 11.86;
+    this.jupiterYearsSince = parseInt(jupiterYearsPassed.toFixed()); 
   }
 
 }
