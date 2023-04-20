@@ -26,11 +26,13 @@ _This application demonstrates Red-Green-Refactor workflow for testing via Jest 
 * _Run 'npm install' in the command line to install all packages_
 * _Run 'npm run build' to build the project via webpack_
 * _Run 'npm run start' to start a development server_
+* _Run 'npm run lint' to lint all JS files_
+* _Run 'npm run test' to test files via Jest_
 
 ## Known Bugs
 
-* _No known bugs as of 4/14/23_
-* _Currently no UI as of 4/14/23_
+* _No known bugs as of 4/20/23_
+* _Currently no UI as of 4/20/23_
 
 ## License
 
